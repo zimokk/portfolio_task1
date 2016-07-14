@@ -1,0 +1,255 @@
+html{
+    background-color: white;
+}
+body{
+    width: 960px;
+    min-width: 960px;
+    margin: auto;
+}
+main{
+    min-height: 1050px;
+    height: 1050px;
+    padding: 20px;
+    font-family: "Comic Sans MS";
+}
+main>nav{
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+main>nav menu{
+    width: 100%;
+}
+main>nav div.heading{
+    width: 100%;
+    color: gray;
+    font-size: 90%;
+    font-weight: 800;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: solid 2px gainsboro;
+}
+main>nav menu menuitem{
+    display: block;
+    width: 100%;
+    padding: 5px;
+    padding-bottom: 10px;
+    border-bottom: solid 2px gainsboro;
+    color: gray;
+    font-family: "Comic Sans MS";
+    font-weight: 400;
+    transition: 1s;
+    cursor: pointer;
+}
+main>nav menu menuitem i{
+    color: gray;
+    transition: 1s;
+}
+main>nav menu menuitem button{
+    float: right;
+    background-color: gainsboro;
+    outline: none;
+    color: black;
+    font-weight: 500;
+    height: 23px;
+    border: none;
+    border-radius: 3px;
+    text-align: center;
+    width: 30px;
+    transition: 1s;
+}
+main>nav menu menuitem:hover{
+    color: darkorange;
+}
+main>nav menu menuitem:hover i {
+    color: darkorange;
+}
+main>nav menu menuitem:hover button{
+    color: white;
+    background-color: darkorange;
+}
+main div.content nav{
+    padding-top: 20px;
+}
+main nav div.popular-posts div.post{
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-bottom: solid 2px gainsboro;
+    min-height: 80px;
+}
+main nav div.popular-posts div.post img{
+    float: left;
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+    margin-right: 5px;
+    border: 3px solid gainsboro;
+    border-radius: 5px;
+    transition: 1s;
+}
+main nav div.popular-posts div.post div.content{
+    width: 70%;
+    height: 100%;
+    min-height: 70px;
+    float: right;
+    color: grey;
+    font-size: small;
+    padding: 5px;
+}
+main nav div.popular-posts div.post div.content h2{
+    font-weight: bold;
+    font-size: 110%;
+    transition: 1s;
+}
+main nav div.popular-posts div.post:hover img{
+    border: 3px solid darkorange;
+}
+main nav div.popular-posts div.post:hover div.content h2{
+    color: darkorange;
+}
+main nav div.tag-cloud div.heading{
+    margin-bottom: 10px;
+}
+main nav div.tag-cloud button{
+    margin: 5px;
+    padding: 5px;
+    background-color: gainsboro;
+    border-radius: 3px;
+    color: grey;
+    border: none;
+    outline: none;
+    transition: 1s;
+}
+main nav div.tag-cloud button:focus{
+    background-color: darkorange;
+    color: whitesmoke;
+}
+main div.content{
+    float: right;
+    width: 680px;
+}
+main div.content nav{
+    width: 100%;
+    margin-bottom: 10px;
+}
+main div.content nav button{
+    border-radius: 15px;
+    outline: none;
+    border: 1px ghostwhite solid;
+    padding: 3px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-left: 5px;
+    color: dimgrey;
+    background-color: white;
+    transition: 0.33s;
+}
+main div.content nav button.active{
+    background-color: darkorange;
+    color: white;
+}
+main div.content nav button:hover{
+    transform: scale(1.2);
+}
+main div.content div.posts{
+    margin-left: 5px;
+}
+main div.content div.posts div.post{
+    float: left;
+    width: 215px;
+    height: 215px;
+    margin: 5px;
+    border-radius: 3px;
+    background-size: cover;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+main div.content div.posts div.post div.body{
+    height: 70%;
+    width: 100%;
+
+    visibility: hidden;
+
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0);
+    transition: 1s;
+}
+main div.content div.posts div.post div.body button{
+    height: 33px;
+    width: 33px;
+    padding: 5px;
+    margin: 3px;
+    color: white;
+    border: none;
+    outline: none;
+    background-color: darkorange;
+    visibility: hidden;
+    opacity: 0;
+    transition: 1s;
+}
+main div.content div.posts div.post div.footer{
+    visibility: hidden;
+    padding: 5px;
+    height: 30%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: darkorange;
+    font-size: small;
+    opacity: 0;
+    transition: 1s;
+}
+main div.content div.posts div.post div.footer h2{
+    font-weight: 700;
+    font-size: 120%;
+    padding-bottom: 5px;
+}
+main div.content div.posts div.post:hover{
+    transform: scale(1.1);
+}
+main div.content div.posts div.post:hover div.footer{
+    visibility: visible;
+    opacity: 1;
+}
+main div.content div.posts div.post:hover div.body{
+    visibility: visible;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+main div.content div.posts div.post:hover div.body button{
+    visibility: visible;
+    opacity: 1;
+}
+main div.content div.more{
+    margin: auto;
+    text-align: center;
+    color: darkgrey;
+}
+main div.content div.more button{
+    background-color: darkorange;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 7px;
+    margin-top: 20px;
+    border-radius: 5px;
+    transition: 1s;
+}
+main div.content div.more button:hover{
+    transform: scale(1.1);
+    color: black;
+}
+main div.content div.more svg{
+    height: 50px;
+    width: 270px;
+    stroke: darkgrey;
+    stroke-width: 1;
+}

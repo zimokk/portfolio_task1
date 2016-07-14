@@ -1,0 +1,174 @@
+footer>nav{
+    background-color: #eae9f0;
+    width: 100%;
+    height: 70px;
+
+    border-bottom: solid 1px #dfdee5;
+    border-top: solid 3px darkorange;
+
+    font-family: "Comic Sans MS";
+    color: #999999;
+}
+footer nav div.copyright{
+    height: 100%;
+    float: left;
+    margin-left: 30px;
+    font-size: small;
+
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+
+    align-items: center;
+}
+footer nav div.menu{
+    height: 100%;
+    float: right;
+    margin-right: 55px;
+
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+
+    align-items: center;
+}
+footer nav div.menu a{
+    font-size: small;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+    color: #999999;
+}
+footer nav div.menu a.active{
+    color: darkorange;
+}
+footer nav div.menu button{
+    height: 30px;
+    border-radius: 3px;
+    background-color: darkorange;
+    color: white;
+    border-top: 2px solid orangered;
+    outline: none;
+    margin-left: 15px;
+}
+footer div.about-us{
+    width: 100%;
+    height: 250px;
+    background-color: #f2f1f8;
+}
+footer div.about-us div.column{
+    width: 25%;
+    height: 100%;
+    float: left;
+    margin-top: 20px;
+    font-family: "Comic Sans MS";
+    padding-left: 10px;
+    padding-right: 10px;
+}
+footer div.about-us div.presentation{
+    color: grey;
+}
+footer div.about-us div.presentation div.logo-content{
+    height: 85px;
+    width: 100%;
+    margin: auto;
+
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+footer div.logo{
+    margin: auto;
+}
+footer div.about-us div.presentation div.logo img{
+    height: 85px;
+}
+footer div.about-us div.presentation label{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+footer div.about-us div.presentation article{
+    text-align: center;
+    font-size: x-small;
+    font-weight: 600;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+footer div.about-us div.presentation div.socials{
+    padding-top: 30px;
+    text-align: center;
+}
+footer div.about-us div.presentation div.socials span i{
+    color: white;
+    border-radius: 50%;
+    margin: auto auto;
+    padding: 4px;
+    width: 24px;
+    height: 24px;
+    background-color: gray;
+    transition: 1s;
+}
+footer div.about-us div.presentation div.socials span a{
+    text-decoration: none;
+}
+footer div.about-us div.presentation div.socials span i:hover{
+    background-color: darkorange;
+    color: black;
+}
+footer div.about-us div h2{
+    text-align: left;
+    font-weight: 500;
+    color: darkorange;
+}
+footer div.about-us div.blog article{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: darkgrey;
+    font-size: small;
+    line-height: 170%;
+}
+footer div.about-us div article:not(:last-of-type){
+    border-bottom: solid #c5c4cb 1px;
+}
+footer div.about-us div.blog article span.date{
+    margin-top: 135px;
+    color: grey;
+    font-weight: 700;
+}
+footer div.about-us div.contact article{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+footer div.about-us div.contact article div.icon{
+    float: left;
+    width: 15%;
+    height: 100%;
+    min-height: 50px;
+    color: darkorange;
+}
+footer div.about-us div.contact article div.content{
+    width: 85%;
+    height: 100%;
+    font-size: 70%;
+    line-height: 200%;
+}
+footer div.about-us div.photos{
+    width: 80%;
+    margin-top: 20px;
+}
+footer div.about-us div.photos img{
+    width: 40px;
+    height: 40px;
+    border: 1px solid darkgray;
+    margin-bottom: 5px;
+}

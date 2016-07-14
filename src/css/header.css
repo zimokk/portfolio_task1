@@ -1,0 +1,139 @@
+header{
+    height: 220px;
+}
+header nav{
+    height: 50px;
+    border-bottom: solid 3px darkorange;
+}
+header nav div.logo{
+    height: 100%;
+    float: left;
+    margin-left: 50px;
+
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+
+    align-items: center;
+}
+header nav img{
+    height: 50px;
+    float: left;
+}
+header nav label{
+    font-weight: 700;
+    font-family: Arial;
+    font-size: large;
+    color: #999999;
+    margin-left: 5px;
+}
+header nav div.menu{
+    height: 100%;
+    float: right;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+
+    align-items: center;
+}
+header button{
+    top: 50%;
+    height: 30px;
+
+    color: black;
+    font-weight: 600;
+    background-color: white;
+
+    border: none;
+    border-radius: 15px;
+
+    margin: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+    cursor: pointer;
+}
+header button:hover{
+    color: darkorange;
+    transition: 1s;
+}
+header button:focus{
+    outline: none;
+}
+header button.active{
+    background-color: orange;
+    color: white;
+    transition: 1s;
+}
+header button.active:hover{
+    color: black;
+ }
+header div.name-container{
+    height: 130px;
+    background-image: url("../img/header.background.jpg");
+    background-size: cover;
+
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+
+    align-items: center;
+}
+header div.name{
+    margin-left: 30px;
+}
+header div.name h1{
+    font-family: "Comic Sans MS";
+    font-size: 150%;
+    font-weight: 300;
+    padding-bottom: 10px;
+    color: darkorange;
+}
+header div.name p{
+    font-family: "Comic Sans MS";
+    font-size: small;
+    color: #555555;
+}
+header div.path-div{
+    color: darkorange;
+
+    background-color: #f2f1f8;
+    height: 40px;
+    border-bottom: solid 1px #dfdee5;
+
+    padding-left: 30px;
+
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+
+    align-items: center;
+}
+header div.path-div span:last-of-type{
+    color:#555555;
+}
+header div.path-div span:first-of-type{
+    margin-right: 5px;
+}
+header div.path-div span.pointer{
+    color: darkgrey;
+}
